@@ -16,6 +16,8 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .back-arrow {
@@ -32,7 +34,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: right;
-  margin-top: 1vh;
+  margin-top: 5vh;
   word-wrap: break-word;
   margin-left: 8vw;
   margin-right: 8vw;
@@ -53,8 +55,10 @@ body {
   font-size: 0.8em;
 }
 
-.main-container p img {
+.image img {
   width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .swiper {
@@ -69,7 +73,7 @@ body {
 .swiper .dot {
   height: 4.2vw;
   width: 4.2vw;
-  border: 0.3vw solid #EB3223;
+  border: 0.3vw solid #eb3223;
   border-radius: 50%;
   display: inline-block;
   margin-left: 2vw;
