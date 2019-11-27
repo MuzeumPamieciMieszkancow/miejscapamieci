@@ -8,6 +8,7 @@
  * Copyright 2014, Codrops
  * http://www.codrops.com
  */
+
 ;( function( window ) {
 
 	'use strict';
@@ -25,7 +26,7 @@
 		this.nav = el;
 		this.options = extend( {}, this.options );
   		extend( this.options, options );
-  		this._init();
+  		
 	}
 
 	DotNav.prototype.options = {};
